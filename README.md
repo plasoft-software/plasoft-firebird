@@ -1,20 +1,22 @@
+![Plasoft Logo](http://plasoft.com.br/assets/images/plasoft.png)
 ![Firebird Logo](https://www.totaljs.com/exports/firebird-logo.png)
 
 [![NPM version][npm-version-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-url] [![Mozilla License][license-image]][license-url]
 [![Build Status](https://travis-ci.org/mariuz/node-firebird.svg?branch=master)](https://travis-ci.org/mariuz/node-firebird)
 
 [![NPM](https://nodei.co/npm/node-firebird.png?downloads=true&downloadRank=true)](https://nodei.co/npm/node-firebird/) [![NPM](https://nodei.co/npm-dl/node-firebird.png?months=6&height=3)](https://nodei.co/npm/node-firebird/)
-# Pure JavaScript Firebird client for Node.js.
+# Cliente Firebird JavaScript para Node.js.
 
+Cliente Firebird assíncrono puramente JavaScript para Node.js ajustado para suportar firebird 2.1. baseado completamente no [node-firebird](https://npmjs.org/package/node-firebird)
 Pure JavaScript and Asynchronous Firebird client for Node.js. [Firebird forum](https://groups.google.com/forum/#!forum/node-firebird) on Google Groups.
 
-__Firebird database on social networks__
+__Firebird nas redes sociais__
 
 - [Firebird on Google+](https://plus.google.com/111558763769231855886/posts)
 - [Firebird on Twitter](https://twitter.com/firebirdsql/)
 - [Firebird on Facebook](https://www.facebook.com/FirebirdSQL)
 
-__Changelog for version v0.2.x__
+<!-- __Changelog for version v0.2.x__
 
 - added auto-reconnect
 - added [sequentially selects](https://github.com/hgourvest/node-firebird/wiki/What-is-sequentially-selects)
@@ -30,21 +32,21 @@ __Changelog for version v0.2.x__
 ---
 
 - [Firebird documentation](http://www.firebirdsql.org/en/documentation/)
-- [Firebird limits and data types](http://www.firebirdsql.org/en/firebird-technical-specifications/)
+- [Firebird limits and data types](http://www.firebirdsql.org/en/firebird-technical-specifications/) -->
 
-## Installation
+## Instalação
 
 ```bash
-npm install node-firebird
+npm install node-firebird --save
 ```
 
-## Usage
+## Utilização
 
 ```js
-var Firebird = require('node-firebird');
+var Firebird = require('plasoft-firebird');
 ```
 
-### Methods
+### Métodos
 
 - `Firebird.escape(value) -> return {String}` - prevent for SQL Injections
 - `Firebird.attach(options, function(err, db))` attach a database
@@ -472,15 +474,15 @@ for Firebird 3.0 you need to add the following in firebird.conf
 AuthServer = Legacy_Auth
 WireCrypt = Disabled
 ```
-## Contributors
+<!-- ## Contributors
 
 - Henri Gourvest, <https://github.com/hgourvest>
 - Popa Marius Adrian, <https://github.com/mariuz>
-- Peter Širka, <https://github.com/petersirka>
+- Peter Širka, <https://github.com/petersirka> -->
 
 [license-image]: http://img.shields.io/badge/license-MOZILLA-blue.svg?style=flat
 [license-url]: LICENSE
 
-[npm-url]: https://npmjs.org/package/node-firebird
-[npm-version-image]: http://img.shields.io/npm/v/node-firebird.svg?style=flat
-[npm-downloads-image]: http://img.shields.io/npm/dm/node-firebird.svg?style=flat
+[npm-url]: https://npmjs.org/package/plasoft-firebird
+[npm-version-image]: http://img.shields.io/npm/v/plasoft-firebird.svg?style=flat
+[npm-downloads-image]: http://img.shields.io/npm/dm/plasoft-firebird.svg?style=flat
