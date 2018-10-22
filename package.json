@@ -1,6 +1,6 @@
 {
   "name": "plasoft-firebird",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cliente Firebird assincrono puramente JavaScript para Node.js ajustado para suportar firebird 2.1.",
   "main": "./lib",
   "scripts": {},
