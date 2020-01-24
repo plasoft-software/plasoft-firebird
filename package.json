@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/plasoft-software/plasoft-firebird/issues"
   },
-  "homepage": "https://github.com/plasoft-software/plasoft-firebird#readme"
+  "homepage": "https://github.com/plasoft-software/plasoft-firebird#readme",
+  "dependencies": {
+    "windows-1252": "^1.0.0"
+  }
 }
